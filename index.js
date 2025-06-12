@@ -1,5 +1,5 @@
 function gerarQRCode() {
-    let url = document.getElementById("").value;
+    let url = document.getElementById("url").value;
     document.getElementById("qrcode").innerHTML = ""; // Limpa QR Code anterior
 
     new QRCode(document.getElementById("qrcode"), {
