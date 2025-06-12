@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  top: 0;
+  border: 0;
+}
+
+.container{
+    margin-top: 40px;
+    text-align: center;
+    color: red;
+    align-items: center;
+}
+
+.imgs {
+
+    
+    display: flex;
+    padding: 70px;
+    columns: auto;
+    
+}
+
+.img{
+    width: 10px;
+    height: 10px;
+}
